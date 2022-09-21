@@ -31,13 +31,13 @@
 }
 
 #portal1 {
-    width: 50px;
+    width: 60px;
     height: 150px;
     margin-top: 60px;
     background-color: blueviolet;
+    margin-left: 350px;
     display: inline-block;
-    float: right;
-    position: relative
+    position: absolute
     
 }
 
@@ -122,13 +122,24 @@
 
 /*******AAAAAAA********/
 #portal2 {
-    width: 50px;
+    width: 60px;
     height: 150px;
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: blueviolet;
     display: inline-block;
-    float: left;
+    position: absolute;
 }
+
+#portal3 {
+    width: 60px;
+    height: 150px;
+    margin-top: 60px;
+    background-color: blueviolet;
+    margin-left: 1190px;
+    display: inline-block;
+    position: absolute
+}   
+
 
 #linha1 {
     width: 100%;
@@ -207,16 +218,7 @@
     }
 
     22%{
-        transform: translate(1500px , 0px);
-    }
-
-    24%{
-        transform: translate(1600px , -100px);
-    }
-    
-    26%{
-        transform: translate(1620px , -100px);
-        /*transform: rotate(0);*/
+        transform: translate(1200px , -100px);
     }
 
     /******SEGUNDA PARTE******/
@@ -252,6 +254,10 @@
 
     64%{
         transform: translate(900px , 255px);
+    }
+
+    66%{
+        transform: translate(1200px , 200px);
     }
 
 }
