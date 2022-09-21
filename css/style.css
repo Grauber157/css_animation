@@ -63,7 +63,7 @@
 
 #obstaculo6{
     width: 30px;
-    height: 60px;
+    height: 175px;
     background-color: green;
     margin-left: 500px;
     display: inline-block;
@@ -75,48 +75,47 @@
     height: 60px;
     background-color: green;
     margin-left: 500px;
+    margin-top: 230px;
     display: inline-block;
     position: absolute;
 }
 
 #obstaculo8{
     width: 30px;
-    height: 150px;
+    height: 25px;
     background-color: green;
-    margin-left: 700px;
-    margin-top: 70px;
+    margin-left: 650px;
     display: inline-block;
     position: absolute;
 }
 
 #obstaculo9{
     width: 30px;
-    height: 80px;
+    height: 200px;
     background-color: green;
-    margin-left: 700px;
+    margin-left: 650px;
+    margin-top: 80px;
     display: inline-block;
     position: absolute;
-    float: left;
     
 }
 
 #obstaculo10{
     width: 30px;
-    height: 50px;
+    height: 200px;
     background-color: green;
-    margin-left: 900px;
-    margin-top: 60px;
+    margin-left: 850px;
     display: inline-block;
     position: absolute;
-    float: left;;
 }
 
 
 #obstaculo11{
     width: 30px;
-    height: 60px;
+    height: 30px;
     background-color: green;
-    margin-left: 900px;
+    margin-left: 850px;
+    margin-top: 250px;
     display: inline-block;
     position: absolute;
 }
@@ -133,13 +132,13 @@
 
 #linha1 {
     width: 100%;
-    height: 10px;
+    height: 20px;
     background-color: green;
 }
 
 #linha2 {
     width: 100%;
-    height: 10px;
+    height: 20px;
     background-color: green;
     /*margin-top: 300px;*/
 }
@@ -151,7 +150,7 @@
     display: inline-block;
     margin-top: 200px;
     animation-name: run;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-timing-function: steps(60);
 }
 
@@ -223,17 +222,36 @@
     /******SEGUNDA PARTE******/
     
     50%{
-        transform: translate(0px , 200px);
+        transform: translate(0px , 160px);
         
     }
 
     52%{
-        transform: translate(300px , 200px);
+        transform: translate(300px , 160px);
     }
 
     54%{
-        
-        transform: translate(600px , 200px);
+        transform: translate(400px , 230px);
+    }
+
+    56%{
+        transform: translate(510px , 230px);
+    }
+
+    58%{
+        transform: translate(600px , 80px)
+    }
+
+    60%{
+        transform: translate(700px , 80px);
+    }
+
+    62%{
+        transform: translate(800px , 260px);
+    }
+
+    64%{
+        transform: translate(900px , 255px);
     }
 
 }
