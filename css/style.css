@@ -1,3 +1,13 @@
+#local1 {
+    width: 100%;
+    height: 250px;
+}
+
+#local2 {
+    width: 100%;
+    height: 280px;
+}
+
 #obstaculo1 {
     width: 30px;
     height: 60px;
@@ -31,29 +41,101 @@
     
 }
 
+#obstaculo4{
+    width: 30px;
+    height: 80px;
+    background-color: green;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    display: inline-block;
+    float: left;
+}
+
+#obstaculo5{
+    width: 30px;
+    height: 180px;
+    background-color: green;
+    margin-left: 300px;
+    display: inline-block;
+    float: left;
+}
+
+#obstaculo6{
+    width: 30px;
+    height: 60px;
+    background-color: green;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+/*#obstaculo7{
+    width: 30px;
+    height: 60px;
+    background-color: green;
+    margin-left: 400px;
+    display: inline-block;
+}*/
+
+/*#obstaculo8{
+    width: 30px;
+    height: 60px;
+    background-color: green;
+    margin-left: 400px;
+    display: inline-block;
+}*/
+
+#obstaculo9{
+    width: 30px;
+    height: 80px;
+    background-color: green;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: inline-block;
+    float: left;
+    clear: both;
+}
+
+#obstaculo10{
+    width: 30px;
+    height: 50px;
+    background-color: green;
+    margin-left: 300px;
+    margin-top: 60px;
+    display: inline-block;
+    float: left;;
+}
+
+/*
+#obstaculo11{
+    width: 30px;
+    height: 60px;
+    background-color: green;
+    margin-left: 400px;
+    display: inline-block;
+    float: right;
+}*/
+
+/*******AAAAAAA********/
 #portal2 {
     width: 50px;
     height: 150px;
-    margin-top: 60px;
+    margin-top: 30px;
     background-color: blueviolet;
     display: inline-block;
     float: left;
-    position: relative
 }
 
 #linha1 {
     width: 100%;
     height: 10px;
     background-color: green;
-    position: absolute;
 }
 
 #linha2 {
     width: 100%;
     height: 10px;
     background-color: green;
-    margin-top: 300px;
-    position: absolute;
+    /*margin-top: 300px;*/
 }
 
 #caixa {
@@ -130,10 +212,6 @@
     26%{
         transform: translate(1620px , -100px);
         /*transform: rotate(0);*/
-    }
-
-    27%{
-        visibility: ;
     }
 
     /******SEGUNDA PARTE******/
