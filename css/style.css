@@ -40,13 +40,15 @@ body {
     width: 60px;
     height: 150px;
     margin-top: 60px;
-    background-color: blueviolet;
+    background: linear-gradient(90deg, darkblue, blue, blueviolet);
     border-left: solid greenyellow 7px;
     margin-left: 350px;
     display: inline-block;
     position: absolute
     
 }
+
+/*AREA 2*/
 
 #obstaculo4{
     width: 30px;
@@ -70,7 +72,7 @@ body {
 
 #obstaculo6{
     width: 30px;
-    height: 175px;
+    height: 160px;
     background: linear-gradient(purple, black);
     margin-left: 500px;
     display: inline-block;
@@ -109,7 +111,7 @@ body {
 
 #obstaculo10{
     width: 30px;
-    height: 200px;
+    height: 185px;
     background: linear-gradient(purple, black);
     margin-left: 850px;
     display: inline-block;
@@ -129,22 +131,22 @@ body {
 
 /*******AAAAAAA********/
 #portal2 {
-    width: 60px;
+    width: 100px;
     height: 150px;
     margin-top: 50px;
-    background-color: yellowgreen;
-    border-right: darkblue solid 7px;
+    background: linear-gradient(90deg, yellowgreen, purple);
+    border-right: solid darkblue 7px;
     display: inline-block;
     position: absolute;
 }
 
 #portal3 {
-    width: 60px;
+    width: 100px;
     height: 150px;
     margin-top: 60px;
     background-color: yellowgreen;
     border-left: darkblue solid 7px;
-    margin-left: 1190px;
+    margin-left: 1170px;
     display: inline-block;
     position: absolute
 }   
@@ -216,8 +218,14 @@ body {
     border: black solid 1px;
     margin-top: 200px;
     animation-name: run2;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-timing-function: steps(60);
+}
+
+#spaceship {
+    width: 70px;
+    height: 15px;
+    background: linear-gradient(90deg, orangered , yellow, greenyellow)
 }
 
 @keyframes run{
@@ -313,10 +321,10 @@ body {
     }
 
     95%{
-        transform: translate(1200px , -50px);
+        transform: translate(1200px , -55px);
     }
 
     100%{
-        transform: translate(1250px , -60px);
+        transform: translate(1250px , -70px);
     }
 }
