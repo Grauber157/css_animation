@@ -72,7 +72,7 @@ body {
 
 #obstaculo6{
     width: 30px;
-    height: 160px;
+    height: 140px;
     background: linear-gradient(purple, black);
     margin-left: 500px;
     display: inline-block;
@@ -81,10 +81,10 @@ body {
 
 #obstaculo7{
     width: 30px;
-    height: 60px;
+    height: 70px;
     background: linear-gradient(black, purple);
     margin-left: 500px;
-    margin-top: 230px;
+    margin-top: 220px;
     display: inline-block;
     position: absolute;
 }
@@ -144,7 +144,7 @@ body {
     width: 100px;
     height: 150px;
     margin-top: 60px;
-    background-color: yellowgreen;
+    background: linear-gradient(90deg, purple, yellowgreen) ;
     border-left: darkblue solid 7px;
     margin-left: 1170px;
     display: inline-block;
@@ -297,27 +297,31 @@ body {
     }
 
     65%{
-        transform: translate(400px , -15px);
+        transform: translate(400px , -40px);
     }
 
     70%{
-        transform: translate(510px , -15px);
+        transform: translate(510px , -30px);
     }
 
     75%{
-        transform: translate(600px , -15px)
+        transform: translate(600px , -30px)
+    }
+
+    77%{
+        transform: translate(620px , -100px)
     }
 
     80%{
-        transform: translate(700px , -195px);
+        transform: translate(700px , -190px);
     }
 
     85%{
-        transform: translate(800px , 0px);
+        transform: translate(800px , 5px);
     }
 
     90%{
-        transform: translate(900px , 5px);
+        transform: translate(900px , 0px);
     }
 
     95%{
